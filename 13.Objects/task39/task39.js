@@ -1,3 +1,4 @@
+
 let salaries = {
       John: 100,
       Ann: 160,
@@ -5,7 +6,8 @@ let salaries = {
 };
 
 let sum = 0;
-for(let key in salaries ){
+for(let key in salaries ) {
+      // sum = sum+salaries[key];
       sum += salaries[key];
       // console.log(sum);
 }    
