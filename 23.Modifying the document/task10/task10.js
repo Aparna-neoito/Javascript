@@ -1,5 +1,17 @@
-let text = `<b>text</b>`;
+let data = {
+  "Fish": {
+    "trout": {},
+    "salmon": {}
+  },
 
-elem1.append(document.createTextNode(text));
-elem2.innerHTML = text;       
-elem3.textContent = text;
+  "Tree": {
+    "Huge": {
+      "sequoia": {},
+      "oak": {}
+    },
+    "Flowering": {
+      "apple tree": {},
+      "magnolia": {}
+    }
+  }
+};

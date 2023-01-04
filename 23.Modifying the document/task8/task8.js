@@ -1,2 +1,2 @@
-alert(table);;
+alert(table);
 table.remove();
